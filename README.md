@@ -1,6 +1,6 @@
-# 🔐 pyCrack – Simple Python Hash Cracker
+# 🔐 capriCrack – Simple Python Hash Cracker
 
-**pyCrack** is a lightweight, GUI-based hash cracking tool written in Python. Designed for cybersecurity learners, CTF participants, and ethical hackers, this tool can crack common hash types using wordlists via a simple and intuitive interface.
+**capriCrack** is a lightweight, GUI-based hash cracking tool written in Python. Designed for cybersecurity learners, CTF participants, and ethical hackers, this tool can crack common hash types using wordlists via a simple and intuitive interface. This tool is for ethical, and learning purposes only and should by no means be used for illegal activities
 
 ---
 
@@ -26,14 +26,14 @@ pip install easygui
 🚀 How to Use
 1. Clone this repository:
 
-git clone https://github.com/your-username/pyCrack.git
-cd pyCrack
+git clone https://github.com/your-username/capriCrack.git
+cd capriCrack
 
 2. Make sure you have a wordlists/ directory with at least one .txt wordlist inside. You can add more files to this folder.
 
 3. Run the program:
 
-python pyCrack.py
+python capriCrack.py
 
 4. Use the GUI to:
 
@@ -44,7 +44,7 @@ Select a wordlist from the wordlists folder
 Choose a hash type or let the tool identify it
 
 📁 Wordlists
-Default wordlists go in the /wordlists/ directory.
+Place the wordlists you want to use in the /wordlists/ directory.
 Feel free to add your own — common ones include:
 
 rockyou.txt
